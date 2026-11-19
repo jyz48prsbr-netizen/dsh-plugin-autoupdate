@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "插件自动更新",
+    "description": "定时检查已安装的 profile 插件，把兼容的新版本原地装上；重启 DSH 后新代码才生效。",
+    "detail": "docs/DETAIL.md"
+  }
+}

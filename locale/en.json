@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Plugin auto-update",
+    "description": "Checks installed profile plugins on a schedule and installs newer compatible versions in place. Restart DSH to load the new code.",
+    "detail": "docs/DETAIL.md"
+  }
+}

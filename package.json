@@ -1,0 +1,31 @@
+{
+  "name": "dsh-plugin-autoupdate",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["dsh", "dsh-plugin", "update", "maintenance"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyz48prsbr/dsh-plugin-autoupdate.git"
+  },
+  "description": "定时检查已安装的 profile 插件，把兼容的新版本原地装上；重启 DSH 后新代码才生效。",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

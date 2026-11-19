@@ -1,0 +1,9 @@
+# Inserts this bundle's own Host row. Configuration lives on the row below and
+# can be changed without touching the code: everything is optional.
+- insert:
+    - id: plugin-autoupdate
+      name: 'dsh-plugin-autoupdate'
+      config:
+        autoInstall: true
+        intervalHours: 12
+        initialDelaySeconds: 20
