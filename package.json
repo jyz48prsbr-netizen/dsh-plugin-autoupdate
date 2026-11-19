@@ -6,7 +6,7 @@
   "keywords": ["dsh", "dsh-plugin", "update", "maintenance"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jyz48prsbr/dsh-plugin-autoupdate.git"
+    "url": "git+https://github.com/jyz48prsbr-netizen/dsh-plugin-autoupdate.git"
   },
   "description": "定时检查已安装的 profile 插件，把兼容的新版本原地装上；重启 DSH 后新代码才生效。",
   "exports": {
