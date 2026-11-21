@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-autoupdate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "keywords": ["dsh", "dsh-plugin", "update", "maintenance"],
@@ -29,3 +29,4 @@
     }
   }
 }
+
